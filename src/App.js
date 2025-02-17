@@ -1,5 +1,14 @@
 import React from 'react';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+  faLaptopCode, 
+  faCogs, 
+  faPencilRuler, 
+  faTabletAlt, 
+  faIndustry, 
+  faDatabase 
+} from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -41,11 +50,66 @@ function App() {
         </div>
       </section>
 
+      <section id="services" className="section services-section">
+        <div className="container">
+          <h2>What I Do</h2>
+          <div className="services-grid">
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faLaptopCode} />
+              </div>
+              <h3>Software Development</h3>
+              <p>Expert in front-end and back-end development, creating robust and scalable solutions using modern technologies.</p>
+            </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faCogs} />
+              </div>
+              <h3>Mechatronics Engineering</h3>
+              <p>Specialized in integrating mechanical, electrical, and software systems for automated solutions.</p>
+            </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faPencilRuler} />
+              </div>
+              <h3>UI / UX Design</h3>
+              <p>Craft custom web experiences that deliver a message to target audiences with intuitive interfaces.</p>
+            </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faTabletAlt} />
+              </div>
+              <h3>Responsive Design</h3>
+              <p>Create user-friendly experiences for Android, iOS, and tablets, ensuring perfect functionality across all devices.</p>
+            </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faIndustry} />
+              </div>
+              <h3>Robotics & Automation</h3>
+              <p>Design and implement automated systems using PLC programming, sensors, and control systems.</p>
+            </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <FontAwesomeIcon icon={faDatabase} />
+              </div>
+              <h3>Data-Driven Solutions</h3>
+              <p>Implement analytics, optimization, and data-driven strategies for improved performance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="skills" className="section">
         <div className="container">
           <h2>Technical Expertise</h2>
           <div className="skills-grid">
-            <div className="skill-category">
+            <div className="skill-category mechatronics">
               <h3>Mechatronics Engineering</h3>
               <ul>
                 <li>Control Systems & Automation</li>
@@ -58,7 +122,7 @@ function App() {
                 <li>Manufacturing Processes</li>
               </ul>
             </div>
-            <div className="skill-category">
+            <div className="skill-category software">
               <h3>Software Engineering</h3>
               <ul>
                 <li>Programming Languages: JavaScript, Python, C#, C++, TypeScript</li>
