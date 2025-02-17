@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MyPort/static/css/main.0ba6a5ad.css",
+    "main.js": "/MyPort/static/js/main.7e22afde.js",
+    "static/js/453.e0130567.chunk.js": "/MyPort/static/js/453.e0130567.chunk.js",
+    "index.html": "/MyPort/index.html",
+    "main.0ba6a5ad.css.map": "/MyPort/static/css/main.0ba6a5ad.css.map",
+    "main.7e22afde.js.map": "/MyPort/static/js/main.7e22afde.js.map",
+    "453.e0130567.chunk.js.map": "/MyPort/static/js/453.e0130567.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba6a5ad.css",
+    "static/js/main.7e22afde.js"
+  ]
+}
